@@ -20,14 +20,15 @@ Las pruebas pueden ser:
 - **No funcionales**
 ***  
 - **Pruebas Funcionales**  
-Sirven  para comprobar que todo funciona tal como se especificó en su diseño en base a los requisitos, o especificaciones iniciales.
+Sirven  para comprobar que todo funciona tal como se especificó en su diseño en base a los requisitos, o especificaciones iniciales.  
+  
 Hay varios tipos:  
-
--- *De unidad* (o *unitarias*)  
+  
+-*De unidad* (o *unitarias*)  
 Se realizan examinando cada unidad de código en el código fuente de la aplicación.
 Són las pruebas de más bajo nivel que se pueden realizar, normalmente las llevan a cabo los programadores.  
 
--- *De regresión*  
+-*De regresión*  
 Si se ha producido un cambio se mira que esto no afecte a la funcionalidad previa.  
 
 -- *De integración* 
