@@ -61,7 +61,7 @@ Se verifica la seguridad del programa haciendo pruebas de acceso, comprobando qu
   - *De compatibilidad*  
 Se compueba que la aplicación funciona correctamente en diferentes entornos, por ejemplo en diversos navegadores.  
 
-  - *De portabilidad*
+  - *De portabilidad*  
 Se comprueba que la aplicación funciona correctamente en otros sistemas o equipos. p.ej. si funciona igual en Linux o en Windows, o corriendo en Windows bajo un determinado modelo y marca del portátil, etc.
 ***
 ### Forma de las pruebas  
