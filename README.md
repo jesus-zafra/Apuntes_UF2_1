@@ -68,7 +68,8 @@ Se comprueba que la aplicación funciona correctamente en otros sistemas o equip
 Las pruebas pueden hacerse de forma *dinámica* o *estática*:  
   
 - **Dinámicas**  
-  Cuando realizamos *pruebas dinámicas*, comprobamos nuevas entradas y salidas mientras **ejecutamos el programa**.
+  Cuando realizamos *pruebas dinámicas*, comprobamos nuevas entradas y salidas mientras **ejecutamos el programa**.  
+    
 - **Estáticas**  
   Cuando realizamos *pruebas estáticas* estamos comprobando posibles errores revisando el código fuente **sin necesidad de ejecutarlo**.  
   
@@ -78,7 +79,8 @@ Las pruebas pueden hacerse de forma *dinámica* o *estática*:
   Para la realización de las pruebas, a grandes rasgos, podemos seguir dos estrategias o enfoques:  
   
 - **Prueba de caja blanca**  
-  Analizamos el código fuente línea a línea, a través de cada una de sus funciones pertinentes viendo como se comporta cada parte durante su ejecución. Se revisa la cobertura de flujo del programa, comprobando condiciones y bucles (comprobar todos los caminos).
+  Analizamos el código fuente línea a línea, a través de cada una de sus funciones pertinentes viendo como se comporta cada parte durante su ejecución. Se revisa la cobertura de flujo del programa, comprobando condiciones y bucles (comprobar todos los caminos).  
+  
 - **Prueba de caja negra**  
   Analizando el sistema sin entrar en lo que hace interiormente el código función por función, directamente trabajando desde su interfaz. Por ejemplo si en un programa de una calculadora ponemos un 2, la operación suma y como segundo operando le pasamos un 4, se espera un resultado por pantalla de 6.
   
