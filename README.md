@@ -91,9 +91,11 @@ Resumiendo, en las **pruebas de caja blanca** se comprueba la estructura examina
 ### Mecanismos de prueba
   
 - **Automático**  
-  Se usa software que realiza las pruebas de forma automatizada usando scripts desarrollados para hacer las comprobaciones.
+  Se usa software que realiza las pruebas de forma automatizada usando scripts desarrollados para hacer las comprobaciones.  
+  
 - **Manual**  
-  Las pruebas las realiza personal especializado en la tarea que desempeña la aplicación ya sea de dentro o fuera de la empresa.
+  Las pruebas las realiza personal especializado en la tarea que desempeña la aplicación ya sea de dentro o fuera de la empresa.  
+  
 ***
 ## Pruebas de integración  
 Consiste en la comprobación en conjunto de toda la aplicación.
@@ -143,12 +145,12 @@ Son los factores que contribuyen a que el producto desarrollado alcance la calid
   
 ![jpg diagrama modelo de McCall](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/mccall-grafico.jpeg)  
     
- - ***Revisión***  
-   - **Facilidad de Mantenimiento**  
+- ***Revisión***  
+  - **Facilidad de Mantenimiento**  
   El código se ha de desarrollar de manera que sea sencillo de corregir. La mejor manera es hacer que las funcionalidades sean escritas en módulos, de manera que cuando algo no funciona podamos ir fácilmente a la sección que sospechamos que falla para arreglarla.  
   - **Facilidad de Prueba**  
-Aquí se trata de asegurar que podremos probar cualquier cosa de forma sencilla. ¿Tenemos todas las herramientas necesarias al alcance para facilitarnos futuras pruebas?
-  -**Flexibilidad**  
+Aquí se trata de asegurar que podremos probar cualquier cosa de forma sencilla. ¿Tenemos todas las herramientas necesarias al alcance para facilitarnos futuras pruebas?  
+  - **Flexibilidad**  
 El código no debería ser rígido y debería facilitar las modificaciones futuras para facilitar la adaptación a cualquier cambio o nuevas necesidades.   
   
 - ***Transición***  
