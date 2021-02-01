@@ -20,18 +20,18 @@ Las pruebas pueden ser:
 - **No funcionales**
 ***  
 - **Pruebas Funcionales**  
-Sirven  para comprobar que todo funciona tal como se especificó en su diseño en base a los requisitos, o especificaciones iniciales.  
+  Sirven  para comprobar que todo funciona tal como se especificó en su diseño en base a los requisitos, o   especificaciones iniciales.  
   
-Hay varios tipos:  
+  Hay varios tipos:  
   
--*De unidad* (o *unitarias*)  
-Se realizan examinando cada unidad de código en el código fuente de la aplicación.
-Són las pruebas de más bajo nivel que se pueden realizar, normalmente las llevan a cabo los programadores.  
+  - *De unidad* (o *unitarias*)  
+  Se realizan examinando cada unidad de código en el código fuente de la aplicación.
+  Són las pruebas de más bajo nivel que se pueden realizar, normalmente las llevan a cabo los programadores.  
 
--*De regresión*  
-Si se ha producido un cambio se mira que esto no afecte a la funcionalidad previa.  
+  - *De regresión*  
+  Si se ha producido un cambio se mira que esto no afecte a la funcionalidad previa.  
 
--- *De integración* 
+  - *De integración* 
 Una vez se han comprobado todas las unidades de código (pruebas unitarias) se realizan las pruebas de integración que verifican que todos los elementos unitarios que componen el programa funcionan correctamente probados en grupo.  
 
 -- *De humo* (o *smoke test*)  
