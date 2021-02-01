@@ -46,30 +46,30 @@ El cliente da validez al programa.
 - **No Funcionales**    
 Se comprueban temas adicionales como el rendimiento y la seguridad al margen de su aspecto funcional.  
   
-  -*De usabilidad*  
+  - *De usabilidad*  
 Realizadas por los usuarios mismos que proporcionan información directa de la forma en la que el programa es usado realmente.  
 
-  -*De rendimiento*  
+  - *De rendimiento*  
 Se comprueba lo rápido que efectúa sus tareas el programa en las condiciones reales de trabajo.  
 
-  -*De stress*  
+  - *De stress*  
 Se mide el rendimiento sometiendo el programa a las condiciones más extremas posibles. Por ejemplo poniendole una base de datos que ocupa el máximo de espacio posible, etc.  
   
-  -*De seguridad*  
+  - *De seguridad*  
 Se verifica la seguridad del programa haciendo pruebas de acceso, comprobando que son respetadas las partes que necesitan de autorización.  
   
-  -*De compatibilidad*  
+  - *De compatibilidad*  
 Se compueba que la aplicación funciona correctamente en diferentes entornos, por ejemplo en diversos navegadores.  
 
-  -*De portabilidad*
+  - *De portabilidad*
 Se comprueba que la aplicación funciona correctamente en otros sistemas o equipos. p.ej. si funciona igual en Linux o en Windows, o corriendo en Windows bajo un determinado modelo y marca del portátil, etc.
 ***
 ### Forma de las pruebas  
 Las pruebas pueden hacerse de forma *dinámica* o *estática*:  
   
--**Dinámicas**  
+- **Dinámicas**  
   Cuando realizamos *pruebas dinámicas*, comprobamos nuevas entradas y salidas mientras **ejecutamos el programa**.
--**Estáticas**  
+- **Estáticas**  
   Cuando realizamos *pruebas estáticas* estamos comprobando posibles errores revisando el código fuente **sin necesidad de ejecutarlo**.  
   
 ***  
@@ -77,9 +77,9 @@ Las pruebas pueden hacerse de forma *dinámica* o *estática*:
 
   Para la realización de las pruebas, a grandes rasgos, podemos seguir dos estrategias o enfoques:  
   
--**Prueba de caja blanca**  
+- **Prueba de caja blanca**  
   Analizamos el código fuente línea a línea, a través de cada una de sus funciones pertinentes viendo como se comporta cada parte durante su ejecución. Se revisa la cobertura de flujo del programa, comprobando condiciones y bucles (comprobar todos los caminos).
--**Prueba de caja negra**  
+- **Prueba de caja negra**  
   Analizando el sistema sin entrar en lo que hace interiormente el código función por función, directamente trabajando desde su interfaz. Por ejemplo si en un programa de una calculadora ponemos un 2, la operación suma y como segundo operando le pasamos un 4, se espera un resultado por pantalla de 6.
   
 ![png caja blanca vs caja negra](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/caja_blanca-caja_negra.png)
@@ -88,7 +88,7 @@ Resumiendo, en las **pruebas de caja blanca** se comprueba la estructura examina
 
 ### Mecanismos de prueba
   
--**Automático**  
+- **Automático**  
   Se usa software que realiza las pruebas de forma automatizada usando scripts desarrollados para hacer las comprobaciones.
 - **Manual**  
   Las pruebas las realiza personal especializado en la tarea que desempeña la aplicación ya sea de dentro o fuera de la empresa.
@@ -149,20 +149,20 @@ Aquí se trata de asegurar que podremos probar cualquier cosa de forma sencilla.
 El código no debería ser rígido y debería facilitar las modificaciones futuras para facilitar la adaptación a cualquier cambio o nuevas necesidades.   
   
 - ***Transición***  
-  -**Interoperabilidad**  
+  - **Interoperabilidad**  
 Aquí lo que se pretende es si nuestro código funcionará correctamente en otro sistema o no.
-  -**Portabilidad**  
+  - **Portabilidad**  
 Parecido a la anterior, pero desde el punto de vista del hardware o dispositivo que hará correr nuestro software.
-  -**Reusabilidad**  
+  - **Reusabilidad**  
 Este factor lo que busca es hacer que la mayor parte del código que escribimos pueda ser usado por otros códigos que escribamos.
 - ***Operación***  
-  -**Corrección**  
+  - **Corrección**  
 Nuestra aplicación debe hacer lo que se pretende.
-  -**Fiabilidad**
+  - **Fiabilidad**
 El programa debe hacer lo que se pretende, y debe hacerlo siempre.
-  -**Eficiencia**
+  - **Eficiencia**
 La aplicación debería ejecutarse en los dispositivos para los que ha sido desarrollada de forma fluida y lo más rápidamente posible.
-  -**Integridad**
+  - **Integridad**
 Nuestra aplicación debería asegurar que los datos que maneja sean seguros, no se pierdan definitivamente ante cualquier fallo imprevisto, como un corte eléctrico, por ejemplo, asegurando copias de seguridad o mediante cualquier otro método. Además se deben controlar los accesos a datos, o partes del programa con acceso restringido.
- -**Facilidad de uso**
+ - **Facilidad de uso**
   Nuestra aplicación debe ser fácil o intuitiva a la hora de usarla de tal manera que puedan ejecutarse fácilmente todas sus funcionalidades.
