@@ -143,9 +143,9 @@ Son los factores que contribuyen a que el producto desarrollado alcance la calid
 ![jpg diagrama modelo de McCall](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/mccall-grafico.jpeg)
   
  - ***Revisión***  
-   -**Facilidad de Mantenimiento**  
+   - **Facilidad de Mantenimiento**  
   El código se ha de desarrollar de manera que sea sencillo de corregir. La mejor manera es hacer que las funcionalidades sean escritas en módulos, de manera que cuando algo no funciona podamos ir fácilmente a la sección que sospechamos que falla para arreglarla.  
-  -**Facilidad de Prueba**  
+  - **Facilidad de Prueba**  
 Aquí se trata de asegurar que podremos probar cualquier cosa de forma sencilla. ¿Tenemos todas las herramientas necesarias al alcance para facilitarnos futuras pruebas?
   -**Flexibilidad**  
 El código no debería ser rígido y debería facilitar las modificaciones futuras para facilitar la adaptación a cualquier cambio o nuevas necesidades.   
@@ -160,11 +160,12 @@ Este factor lo que busca es hacer que la mayor parte del código que escribimos 
 - ***Operación***  
   - **Corrección**  
 Nuestra aplicación debe hacer lo que se pretende.
-  - **Fiabilidad**
+  - **Fiabilidad**  
 El programa debe hacer lo que se pretende, y debe hacerlo siempre.
-  - **Eficiencia**
+  - **Eficiencia**  
 La aplicación debería ejecutarse en los dispositivos para los que ha sido desarrollada de forma fluida y lo más rápidamente posible.
-  - **Integridad**
-Nuestra aplicación debería asegurar que los datos que maneja sean seguros, no se pierdan definitivamente ante cualquier fallo imprevisto, como un corte eléctrico, por ejemplo, asegurando copias de seguridad o mediante cualquier otro método. Además se deben controlar los accesos a datos, o partes del programa con acceso restringido.
- - **Facilidad de uso**
-  Nuestra aplicación debe ser fácil o intuitiva a la hora de usarla de tal manera que puedan ejecutarse fácilmente todas sus funcionalidades.
+  - **Integridad**  
+Nuestra aplicación debería asegurar que los datos que maneja sean seguros, no se pierdan definitivamente ante cualquier fallo imprevisto, como un corte eléctrico, por ejemplo, asegurando copias de seguridad o mediante cualquier otro método. Además se deben controlar los accesos a datos, o partes del programa con acceso restringido.  
+  - **Facilidad de uso**
+  Nuestra aplicación debe ser fácil o intuitiva a la hora de usarla de tal manera que puedan ejecutarse fácilmente todas sus funcionalidades.  
+  
