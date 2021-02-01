@@ -43,7 +43,7 @@ Las pruebas Alfa son las pruebas que se le hacen al programa mientras todavía e
   - *De aceptación*  
 El cliente da validez al programa.  
   
-- **No Funcionales**    
+- **Pruebas No Funcionales**    
 Se comprueban temas adicionales como el rendimiento y la seguridad al margen de su aspecto funcional.  
   
   - *De usabilidad*  
