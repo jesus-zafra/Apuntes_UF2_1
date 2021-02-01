@@ -1,5 +1,5 @@
 ## M5-UF2-1 Optimitzación del Software
-![logos de varis S.O.](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF1_1/main/so-icons.jpg)
+![jpg de bugs](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/bug.jpeg)
 ### Pruebas de software  
 Consiste en probar que nuestros programas funcionan como deberían para conseguir que sea un software de calidad, o lo que es lo mismo, conseguir que desempeñen todo aquello que se pedía en sus especificaciones o requisitos descritos durante su fase de diseño de la mejor forma posible. Para ello se comprueban diferentes resultados dando al programa diferentes entradas y observando que los resultados son los esperados.  
 ### Frameworks
