@@ -139,9 +139,10 @@ A raiz de esto, existen dos conceptos a tener en cuenta:
 Ambos departamentos trabajan en conjunto. La diferencia fundamental entre *QA* y *QC* es que mientras que el departamento de *QA* está presente desde la fase de diseño del producto, el departamento de *QC* comienza a trabajar cuando el producto ya está finalizado.  
   
 ## Factores de calidad  
-Son los factores que contribuyen a que el producto desarrollado alcance la calidad deseada. Según el modelo más conocido (modelo de McCall):
-![jpg diagrama modelo de McCall](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/mccall-grafico.jpeg)
+Son los factores que contribuyen a que el producto desarrollado alcance la calidad deseada. Según el modelo más conocido (modelo de McCall):  
   
+![jpg diagrama modelo de McCall](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/mccall-grafico.jpeg)  
+    
  - ***Revisión***  
    - **Facilidad de Mantenimiento**  
   El código se ha de desarrollar de manera que sea sencillo de corregir. La mejor manera es hacer que las funcionalidades sean escritas en módulos, de manera que cuando algo no funciona podamos ir fácilmente a la sección que sospechamos que falla para arreglarla.  
