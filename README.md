@@ -6,7 +6,7 @@ Consiste en probar que nuestros programas funcionan como deberían para consegui
 ![png frameworks](https://raw.githubusercontent.com/jesus-zafra/Apuntes_UF2_1/main/frameworks.png)
 ***
 ### Frameworks
-Para facilitar el desarollo de las pruebas podemos usar *Frameworks*. Éstos son un entorno de desarrollo de software que unifica una serie de criterios, librerías y recursos de cara a programar de una forma estandarizada de forma que siguiendo esas pautas nos veamos todos obligados a utilizar buenas prácticas de programación y facilitan enormemente la comprensión del código entre todos los miembros participantes en un equipo de programación.  
+Para facilitar el desarollo de las pruebas se usan *Frameworks*. Éstos son entornos de desarrollo de software que unifican una serie de criterios, librerías y recursos para programar de una forma estandarizada. Así, siguiendo esas pautas nos vemos obligados a utilizar buenas prácticas de programación, hecho que su vez facilita enormemente la comprensión del código entre todos los miembros participantes de un equipo de programación (o entre un equipo y otros).  
 
 En general, un *Framework* se compone de:
 - **Reglas** o partes que obligan al cumplimiento de *buenas prácticas de programación*
