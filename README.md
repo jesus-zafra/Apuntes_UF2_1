@@ -23,43 +23,43 @@ Las pruebas pueden ser:
 Sirven  para comprobar que todo funciona tal como se especificó en su diseño en base a los requisitos, o especificaciones iniciales.
 Hay varios tipos:  
 
-  -- *De unidad* (o *unitarias*)  
+-- *De unidad* (o *unitarias*)  
 Se realizan examinando cada unidad de código en el código fuente de la aplicación.
 Són las pruebas de más bajo nivel que se pueden realizar, normalmente las llevan a cabo los programadores.  
 
-  -- *De regresión*  
+-- *De regresión*  
 Si se ha producido un cambio se mira que esto no afecte a la funcionalidad previa.  
 
-  -- *De integración* 
+-- *De integración* 
 Una vez se han comprobado todas las unidades de código (pruebas unitarias) se realizan las pruebas de integración que verifican que todos los elementos unitarios que componen el programa funcionan correctamente probados en grupo.  
 
-  -- *De humo* (o *smoke test*)  
+-- *De humo* (o *smoke test*)  
 Revision rápida para comprobar que el producto funciona y no tiene defectos evidentes. Es una evaluación inicial de la calidad.  
 
-  -- *Alfa* y *Beta*  
+-- *Alfa* y *Beta*  
 Las pruebas Alfa son las pruebas que se le hacen al programa mientras todavía está en desarrollo. Las pruebas Beta son aquellas que se hacen cuando el programa ya está teóricamente correcto, a continuación de las Alfa.  
 
-  -- *De aceptación*  
-  El cliente da validez al programa.  
+-- *De aceptación*  
+El cliente da validez al programa.  
   
 - **No Funcionales**  
 Se comprueban temas adicionales como el rendimiento y la seguridad al margen de su aspecto funcional.  
 
-  -- *De usabilidad*
+-- *De usabilidad*
 Realizadas por los usuarios mismos que proporcionan información directa de la forma en la que el programa es usado realmente.  
 
-  -- *De rendimiento*
+-- *De rendimiento*
 Se comprueba lo rápido que efectúa sus tareas el programa en las condiciones reales de trabajo.  
 
-  -- *De stress*
+-- *De stress*
 Se mide el rendimiento sometiendo el programa a las condiciones más extremas posibles. Por ejemplo poniendole una base de datos que ocupa el máximo de espacio posible, etc.  
 
-  -- *De seguridad*
+-- *De seguridad*
 Se verifica la seguridad del programa haciendo pruebas de acceso, comprobando que son respetadas las partes que necesitan de autorización.
-  -- *De compatibilidad*  
+-- *De compatibilidad*  
 Se compueba que la aplicación funciona correctamente en diferentes entornos, por ejemplo en diversos navegadores.  
 
-  -- *De portabilidad*
+-- *De portabilidad*
 Se comprueba que la aplicación funciona correctamente en otros sistemas o equipos. p.ej. si funciona igual en Linux o en Windows, o corriendo en Windows bajo un determinado modelo y marca del portátil, etc.
 ***
 ### Forma de las pruebas
